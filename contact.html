@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+  <head>
+      <meta name="viewport"
+       content="with=device-width, 
+       initial-scale=1.0">
+    <title>
+           Rajagala web-contac US
+    </title>
+   <link rel="stylesheet" href="styel.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+<script src="https://kit.fontawesome.com/ea3a70048a.js" 
+       crossorigin="anonymous"></script>
+<link rel="stylesheet" href="css/lightbox.min.css">
+<script type="text/javascript" src="js/lightbox-plus-jquery.min.js">
+</script>
+
+</head>
+<body>
+  <!-- heder -->
+  <section class="sub-header-3">
+     <nav>
+       <a href="index.html">
+       <img src="image/logo.jpg"></a>
+  <div class="nav-link" id="navLink"> 
+    <i class="fa fa-times" onclick="hideMenu()"></i>
+      
+    <ul>
+        <li> <a href="index.html"> HOME </a></li>
+        <li> <a href="#"> MEADIA </a>
+          <div class="sub-menu-1">
+            <ul>
+              <li><a href="Photos.html">PHOTO'S</a></li>
+              <li><a href="video.html">VIDEO'S</a></li>
+            </ul>
+           </div> </li>
+        <li> <a href="team.html"> OUR TEAM </a></li>
+        <li> <a href="about.html"> ABOUT US</a></li>
+        <li> <a href="contact.html"> CONTACT US </a></li>
+     </ul>
+      
+       </div>
+       <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1> OUR CONTACT PAGE </h1>
+        <a href="" class="button"> CONTACT US</a>
+      </div>
+   </section>
+<!-- Heder end -->
+
+
+
+
+<section class="location">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.5652308406056!2d81.67099731426897!3d7.290204815798837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae519bb0d1aa9f1%3A0x2ef099d338412bfa!2sAmpara%20-%20Bus%20Stand!5e0!3m2!1sen!2slk!4v1680190912334!5m2!1sen!2slk" 
+  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<section class="contact-us">
+  <div class="row">
+    <div class="contact-col">
+      <div>
+        <i class="fa fa-home"></i>
+        <span>
+          <h5>18/167 WEERAGODA, </h5>
+          <p>RATHMALYAYA,AMPARA</p>
+        </span>
+      </div>
+    </div>
+    <div class="contact-col">
+      <div>
+        <i class="fa fa-phone"></i>
+        <span>
+          <h5>+94778741763 </h5>
+          <p>SUNDAY TO SATURDAY 10am - 4pm</p>
+        </span>
+      </div>
+    </div>
+    <div class="contact-col">
+      <div>
+        <i class="fa fa-envelope"></i>
+        <span>
+          <h5>harshajithlakshan152@gmail.com </h5>
+          <p> E-mail us your query</p>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="contact-col">
+      <form action="">
+        <input type="text" placeholder=" Enter your name" required>
+        <input type="email" placeholder=" Enter email address" required>
+        <input type="number" placeholder=" Enter your age" required>
+        <input type="text" placeholder=" Enter your subject" required>
+        <textarea rows="8" placeholder="massage" required></textarea>
+        <button type="submit" class="button-3">send massage</button>
+      </form>
+    </div>
+  </div>
+  </div>
+
+</section>
+
+<!--footer 1-->
+<section class="ftr">
+
+ <div class="social">
+  <h4>Contact info</h4>
+    <a href="#" class="links">
+      <i class="fas fa-phone"></i>
+    </a>
+    <a href="#" class="links">
+      <i class="fas fa-phone"></i> 
+    </a>
+    <a href="#" class="links">
+      <i class="fas fa-envelope"></i> 
+    </a>
+    <a href="#" class="links">
+      <i class="fas fa-map-marker-alt"></i> 
+    </a>
+    <h5>
+     <li>+94 75 33 89 372</li>
+     <li>+94 77 87 41 763</li>
+     <li>harshajithlakshan152@gmail.com</li>
+     <li>18/167 weeragoda,Rathmalyaya,Ampara </li></h5>
+
+   </div>
+   <div class="social">
+    <a href="#" class="scl">
+     <i class="fa-brands fa-facebook"></i>
+    </a>
+    <a href="#" class="scl">
+     <i class="fa-brands fa-twitter"></i>
+    </a>
+    <a href="#" class="scl">
+     <i class="fa-brands fa-instagram"></i>
+    </a>
+    <a href="#" class="scl">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <a href="#" class="scl">
+      <i class="fa-brands fa-tiktok"></i>
+    </a>
+   </div>
+
+</section>
+<!--footer end-->
+
+<!--copyright massage-->
+<section>
+<div class="copy">
+ <h6>&copy; Created By <span> Web Development Group </span> | All Rights Reserved.
+ </h6>
+</div>
+</section>
+<!--copyright massage end-->
+
+
+<!-- js menu -->
+<script>
+var navLink = document.getElementById("navLink");
+function showMenu(){
+  navLink.style.right="0";
+}
+var navLink = document.getElementById("navLink");
+function hideMenu(){
+  navLink.style.right="-155px";
+}
+
+</script>
+<!-- js menu end-->
+</body>
+</html>
